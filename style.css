@@ -24,11 +24,9 @@ main {
 }
 
 .fotos {
-    width: 100%;
     padding: 20px 0px;
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
+    width: 700px;
+    height: 700px;
 }
 
 .perfil {
@@ -47,7 +45,9 @@ main {
     }
 
     .fotos {
+        height: 300px;
         width: 300px;
+        object-fit: cover;
         padding: 20px;
     }
 }
